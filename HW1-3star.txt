@@ -1,0 +1,39 @@
+task: Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+есть папка qa
+3) Зайти в папку qa
+4) Создать 3 папки
+5) Зайти в любоую папку
+6) Создать 5 файлов (3 txt, 2 json)
+7) Создать 3 папки
+8) Вывести список содержимого папки
+
+13) переместить любые 2 файла, которые вы создали, в любую другую папку.
+
+response:
+
+$ cd qa; mkdir qa_1 qa_2 qa_3; cd qa_2 ; touch file1.txt file2.txt file3.txt file4.json file5.json ; mkdir folder_1 folder_2 folder_3 ; ls -la ; cd ..; mv qa_2/file1.txt qa_2/file5.json qa_1
+
+
+answer of terminal
+
+user@LAPTOP-R8H8K3I1 MINGW64 /d/course_qa/cours_terminal
+$ cd qa; mkdir qa_1 qa_2 qa_3; cd qa_2 ; touch file1.txt file2.txt file3.txt file4.json file5.json ; mkdir folder_1 folder_2 folder_3 ; ls -la ; cd ..; mv qa_2/file1.txt qa_2/file5.json qa_1
+total 4
+drwxr-xr-x 1 user 197609 0 Apr 30 16:35 ./
+drwxr-xr-x 1 user 197609 0 Apr 30 16:35 ../
+-rw-r--r-- 1 user 197609 0 Apr 30 16:35 file1.txt
+-rw-r--r-- 1 user 197609 0 Apr 30 16:35 file2.txt
+-rw-r--r-- 1 user 197609 0 Apr 30 16:35 file3.txt
+-rw-r--r-- 1 user 197609 0 Apr 30 16:35 file4.json
+-rw-r--r-- 1 user 197609 0 Apr 30 16:35 file5.json
+drwxr-xr-x 1 user 197609 0 Apr 30 16:35 folder_1/
+drwxr-xr-x 1 user 197609 0 Apr 30 16:35 folder_2/
+drwxr-xr-x 1 user 197609 0 Apr 30 16:35 folder_3/
+
+
+
+
+
+
+
+
